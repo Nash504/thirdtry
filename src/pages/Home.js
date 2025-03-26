@@ -19,7 +19,7 @@ function Home() {
       >
         <header>
           <h1>
-            MedAid<span style={{ color: "blue" }}>+</span>
+            MedAid <span style={{ color: "blue" }}>+</span>
           </h1>
           <i>
             <p>Your instant medical assistance app</p>

@@ -1,4 +1,3 @@
-
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
@@ -11,9 +10,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/FirstAid" element={<FirstAid />} />
-        <Route path="/SOS" element={<SOS />} />
-        <Route path="/Login" element={<Login />} />
+        <Route path="/first-aid" element={<FirstAid />} />
+        <Route path="/sos" element={<SOS />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   );
